@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "mode": "COD",
+      "description": "Cash on Delivery",
+      "additionalInfo": null,
+      "errorCode": null,
+      "errorMsg": "This transaction is eligible for payment on delivery, only through digital payment options like NEFT or UPI.",
+      "paymentFeeDetail": null,
+      "available": true
+    },
+    {
+      "mode": "INV_FINANCE",
+      "description": "PayLater",
+      "additionalInfo": {
+        "creditLimit": 37688.33,
+        "fiCode": "MUTHOOT",
+        "fiName": "MUTHOOT",
+        "defaultPaymentMode": false
+      },
+      "errorCode": null,
+      "errorMsg": null,
+      "paymentFeeDetail": {
+        "netPaymentFee": 123,
+        "totalPaymentFee": 123,
+        "paymentFeePercentage": null,
+        "onboardingFee": null,
+        "paymentFeeSubTotal": 104.24,
+        "paymentFeeTaxTotal": 18.76,
+        "paymentFeeOrderWise": {
+          "071699334-11806087-5291584": {
+            "totalPaymentFee": 123,
+            "netPaymentFee": 123
+          }
+        }
+      },
+      "available": true
+    },
+    {
+      "mode": "ONLINE",
+      "description": "Pay Now",
+      "additionalInfo": null,
+      "errorCode": null,
+      "errorMsg": null,
+      "paymentFeeDetail": null,
+      "available": true
+    }
+  ],
+  "requestId": "e688f3f6-8ee8-4eb3-98eb-01c2d4b75b7f",
+  "timestamp": 1699347118503
+}
